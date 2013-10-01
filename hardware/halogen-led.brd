@@ -6,23 +6,23 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -33,9 +33,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -45,7 +45,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -63,13 +63,13 @@
 <layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
@@ -111,7 +111,7 @@
 <text x="2" y="20" size="1.27" layer="121">halogen</text>
 <text x="2" y="18.5" size="1.27" layer="121">led</text>
 <text x="2" y="17" size="1.27" layer="121">r0</text>
-<text x="15" y="16.5" size="2.54" layer="121" align="center">~</text>
+<text x="15.5" y="15.5" size="2.54" layer="121" align="center">~</text>
 <text x="15" y="28.5" size="1.27" layer="121" align="center">gnd</text>
 <text x="19.5" y="3" size="1.27" layer="121" align="center">Vled</text>
 </plain>
@@ -1710,9 +1710,9 @@ OSH Park compatible</description>
 <elements>
 <element name="JP1" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="13" y="15" rot="MR0"/>
 <element name="JP2" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="17" y="15" rot="MR0"/>
-<element name="C1" library="rcl" package="C1206" value="10u" x="14" y="20.5" rot="MR90"/>
+<element name="C1" library="rcl" package="C1206" value="25u" x="14" y="20.5" rot="MR90"/>
 <element name="LED1" library="led" package="CHIPLED_0805" value="" x="24" y="6" rot="MR225"/>
-<element name="C2" library="rcl" package="C1206" value="1u" x="12" y="20.5" rot="MR90"/>
+<element name="C2" library="rcl" package="C1206" value="25u" x="12" y="20.5" rot="MR90"/>
 <element name="IC1" library="SparkFun-PowerIC" package="SOT223" value="" x="8" y="15" rot="MR0"/>
 <element name="R2" library="rcl" package="R1206" value="Rshunt" x="11.5" y="7" rot="MR0"/>
 <element name="B1" library="rectifier" package="MBS" value="B1S" x="17.5" y="21" rot="MR180"/>
@@ -1895,8 +1895,8 @@ OSH Park compatible</description>
 <contactref element="SJ1" pad="2"/>
 <wire x1="26.145378125" y1="9.35461875" x2="28" y2="11.209240625" width="0.6096" layer="16"/>
 <wire x1="28" y1="11.209240625" x2="28" y2="13.95" width="0.6096" layer="16"/>
-<wire x1="26.145378125" y1="9.35461875" x2="24.7424625" y2="7.951703125" width="0.6096" layer="16"/>
-<wire x1="24.7424625" y1="7.951703125" x2="24.7424625" y2="6.742459375" width="0.6096" layer="16"/>
+<wire x1="26.145378125" y1="9.35461875" x2="26.145378125" y2="8.145375" width="0.6096" layer="16"/>
+<wire x1="26.145378125" y1="8.145375" x2="24.7424625" y2="6.742459375" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$11">
 <contactref element="D3" pad="A@1"/>
