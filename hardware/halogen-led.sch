@@ -8109,19 +8109,19 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="LICENSE1" library="balto" deviceset="CC_BY-SA" device="" value="Fabio Baltieri"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="25u"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="DNP"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_0805"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="25u"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="DNP"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="Rshunt"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="10"/>
 <part name="B1" library="rectifier" deviceset="B*S" device="" technology="1"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="Rshunt"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="22 (blue), 10 (others)"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="LED3" library="led" deviceset="LED" device="CHIPLED_0805"/>
@@ -8135,23 +8135,23 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="D6" library="balto" deviceset="LED_XH-G" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="10u"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="DNP"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="10u"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="DNP"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="D7" library="balto" deviceset="LED_XH-G" device=""/>
 <part name="D8" library="balto" deviceset="LED_XH-G" device=""/>
 <part name="D9" library="balto" deviceset="LED_XH-G" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="Rshunt"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="10"/>
 <part name="LED6" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="LED7" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="LED8" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="LED9" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="Req"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="Req"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="Req"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="0"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="0"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="0"/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NC2"/>
 </parts>
 <sheets>
@@ -8264,8 +8264,8 @@ Vtot = 3*3 + 1.25 = 10.25V</text>
 <instance part="GND6" gate="1" x="91.44" y="76.2"/>
 <instance part="C3" gate="G$1" x="99.06" y="142.24"/>
 <instance part="GND7" gate="1" x="99.06" y="132.08"/>
-<instance part="C4" gate="G$1" x="185.42" y="142.24"/>
-<instance part="GND8" gate="1" x="185.42" y="132.08"/>
+<instance part="C4" gate="G$1" x="203.2" y="142.24"/>
+<instance part="GND8" gate="1" x="203.2" y="132.08"/>
 <instance part="D7" gate="G$1" x="111.76" y="106.68" smashed="yes">
 <attribute name="NAME" x="114.808" y="105.664" size="1.778" layer="95"/>
 <attribute name="VALUE" x="114.808" y="103.124" size="1.778" layer="96"/>
@@ -8343,7 +8343,7 @@ Vtot = 3*3 + 1.25 = 10.25V</text>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="134.62" x2="185.42" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="134.62" x2="203.2" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
@@ -8513,7 +8513,7 @@ Vtot = 3*3 + 1.25 = 10.25V</text>
 <net name="N$16" class="0">
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="149.86" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="149.86" x2="203.2" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="OUT@1"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="147.32" x2="165.1" y2="147.32" width="0.1524" layer="91"/>
@@ -8522,7 +8522,7 @@ Vtot = 3*3 + 1.25 = 10.25V</text>
 <wire x1="160.02" y1="149.86" x2="165.1" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="149.86" x2="165.1" y2="147.32" width="0.1524" layer="91"/>
 <junction x="165.1" y="147.32"/>
-<wire x1="185.42" y1="149.86" x2="165.1" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="149.86" x2="165.1" y2="149.86" width="0.1524" layer="91"/>
 <junction x="165.1" y="149.86"/>
 </segment>
 </net>

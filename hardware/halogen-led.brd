@@ -1710,14 +1710,14 @@ OSH Park compatible</description>
 <elements>
 <element name="JP1" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="13" y="15" rot="MR0"/>
 <element name="JP2" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="17" y="15" rot="MR0"/>
-<element name="C1" library="rcl" package="C1206" value="25u" x="14" y="20.5" rot="MR90"/>
+<element name="C1" library="rcl" package="C1206" value="DNP" x="14" y="20.5" rot="MR90"/>
 <element name="LED1" library="led" package="CHIPLED_0805" value="" x="24" y="6" rot="MR225"/>
-<element name="C2" library="rcl" package="C1206" value="25u" x="12" y="20.5" rot="MR90"/>
+<element name="C2" library="rcl" package="C1206" value="DNP" x="12" y="20.5" rot="MR90"/>
 <element name="IC1" library="SparkFun-PowerIC" package="SOT223" value="" x="8" y="15" rot="MR0"/>
-<element name="R2" library="rcl" package="R1206" value="Rshunt" x="11.5" y="7" rot="MR0"/>
+<element name="R2" library="rcl" package="R1206" value="10" x="11.5" y="7" rot="MR0"/>
 <element name="B1" library="rectifier" package="MBS" value="B1S" x="17.5" y="21" rot="MR180"/>
 <element name="IC2" library="SparkFun-PowerIC" package="SOT223" value="" x="22" y="15" rot="MR0"/>
-<element name="R1" library="rcl" package="R1206" value="Rshunt" x="20" y="7.5" rot="MR0"/>
+<element name="R1" library="rcl" package="R1206" value="22 (blue), 10 (others)" x="20" y="7.5" rot="MR0"/>
 <element name="LED2" library="led" package="CHIPLED_0805" value="" x="15" y="2" rot="MR270"/>
 <element name="LED3" library="led" package="CHIPLED_0805" value="" x="6" y="6" rot="MR315"/>
 <element name="LED4" library="led" package="CHIPLED_0805" value="" x="2" y="15" rot="MR0"/>
@@ -1727,19 +1727,19 @@ OSH Park compatible</description>
 <element name="D4" library="balto" package="CREE_XHG" value="LED_XH-G" x="23" y="7.5" rot="R270"/>
 <element name="D5" library="balto" package="CREE_XHG" value="LED_XH-G" x="23" y="15.5" rot="R270"/>
 <element name="D6" library="balto" package="CREE_XHG" value="LED_XH-G" x="23" y="23.5" rot="R270"/>
-<element name="C3" library="rcl" package="C0805" value="10u" x="7" y="9" rot="MR0"/>
-<element name="C4" library="rcl" package="C0805" value="10u" x="18" y="9.5" rot="MR0"/>
+<element name="C3" library="rcl" package="C0805" value="DNP" x="7" y="9" rot="MR0"/>
+<element name="C4" library="rcl" package="C0805" value="DNP" x="18" y="9.5" rot="MR0"/>
 <element name="D7" library="balto" package="CREE_XHG" value="LED_XH-G" x="15" y="3.5" rot="R270"/>
 <element name="D8" library="balto" package="CREE_XHG" value="LED_XH-G" x="15" y="11.5" rot="R270"/>
 <element name="D9" library="balto" package="CREE_XHG" value="LED_XH-G" x="15" y="19.5" rot="R270"/>
-<element name="R3" library="rcl" package="R1206" value="Rshunt" x="11.5" y="9" rot="MR0"/>
+<element name="R3" library="rcl" package="R1206" value="10" x="11.5" y="9" rot="MR0"/>
 <element name="LED6" library="led" package="CHIPLED_0805" value="" x="28" y="15" rot="MR0"/>
 <element name="LED7" library="led" package="CHIPLED_0805" value="" x="24" y="24" rot="MR315"/>
 <element name="LED8" library="led" package="CHIPLED_0805" value="" x="15" y="28" rot="MR270"/>
 <element name="LED9" library="led" package="CHIPLED_0805" value="" x="6" y="24" rot="MR225"/>
-<element name="R4" library="rcl" package="R0805" value="Req" x="8" y="4.5"/>
-<element name="R5" library="rcl" package="R0805" value="Req" x="22" y="4.5" rot="R180"/>
-<element name="R6" library="rcl" package="R0805" value="Req" x="11.5" y="3" rot="R180"/>
+<element name="R4" library="rcl" package="R0805" value="0" x="8" y="4.5"/>
+<element name="R5" library="rcl" package="R0805" value="0" x="22" y="4.5" rot="R180"/>
+<element name="R6" library="rcl" package="R0805" value="0" x="11.5" y="3" rot="R180"/>
 <element name="SJ1" library="SparkFun-Passives" package="SJ_2S-NOTRACE" value="SOLDERJUMPERNC2" x="25.853553125" y="9.64644375" rot="MR225"/>
 <element name="U$1" library="cat" package="CAT-R" value="" x="27" y="14"/>
 <element name="U$2" library="cat" package="CAT-L" value="" x="24.5" y="10.5"/>
