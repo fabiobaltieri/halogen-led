@@ -1,7 +1,7 @@
 Halogen-LED
 ==================
 
-http://fabiobaltieri.com/2013/11/17/halogen-led/
+http://fabiobaltieri.com/2013/11/18/halogen-led/
 
 This project is an hardware design for an halogen lamp replacement, and it's
 designed to run on a legacy low voltage AC halogen power supply.
